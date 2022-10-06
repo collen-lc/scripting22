@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background-color:#00F07E;
+	text-align: center;
+	padding: 50px 0px;
+}	
+
+
+h1 {
+	
+	
+		font-family: 'Indie Flower', cursive;
+	}
+	
+	p {
+		font-family: 'Bungee Spice', cursive;
+		
+	}
+
+section{
+	
+	background-color: #00703C;
+	max-width:2000px;
+	color:white;
+	margin:0 auto; 
+	padding: 30px;
+	
+	overflow:hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.alternate{
+	background-color: #B7AFB0;
+	
+}
+
+section img{
+	float:left;
+	margin-right: 40px;
+}
+
+
+footer{
+	background-color: #22704C;
+	max-width:2000px;
+
+	color:white;
+	text-align: center;
+	padding: 30px;
+	margin:0 auto;	
+}
+
+
+a:link{
+	color: #49F2A3;	
+}
+a:visited{
+	color: white;	
+}
+a:hover{
+	color: right;
+	text-decoration: none;
+	transition-duration: 1s;
+}
+a:active{
+	color: red;	
+}
+
+
+button{
+	background-color: #E7E7E7;
+	padding: 16px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	border: 2px double #E7E7E7;
+	transition-duration: 1s;
+}
+
+button:hover{
+	color: white;
+	background-color: #474041;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition-duration: 1s;
+
+}
+
+
+nav li a:hover {
+  background-color: white;
+}
+
+.sticky{
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;	
+}
+
+
+
